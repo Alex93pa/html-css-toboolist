@@ -26,7 +26,7 @@
     line-height: normal;
     vertical-align: middle;
     text-align: center;
-
+    color: black;
 }
 
 body{
@@ -57,6 +57,10 @@ h1{
     padding-top: 20px;
 }
 
+.task{
+    margin-top: 20px;
+}
+
 ul{
     list-style: none;
     padding: 15px;
@@ -65,3 +69,32 @@ ul{
 li{
     padding: 5px;
 }
+
+span{
+    border-radius: 5px;
+    padding: 3px;
+    color: white;
+}
+
+.blu{
+    background-color: rgb(0, 153, 255);
+}
+ .verde{
+     background-color: rgb(11, 107, 11);
+ }
+
+ .viola{
+     background-color: violet;
+ }
+
+ .rosa{
+     background-color: pink;
+ }
+
+ .orange{
+     background-color: orange;
+ }
+
+ .giallo{
+    background-color: yellowgreen;
+ }

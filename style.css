@@ -7,23 +7,18 @@
 
 .header{
     background-color: rgb(255, 255, 255);
-    height: 130px;
-    line-height: 130px;
- 
-}
+    padding: 15px;
+ }
 
 .logo{
-    height: 100px;
-    
     margin-left: 15px;
     vertical-align: middle;
 }
 
 .name{
     display: inline-block;
-    font-size: 60px;
+    font-size: 30px;
     font-weight: bold;
-    height: 130px;
     vertical-align: middle;
     text-align: center;
     color: black;
@@ -33,19 +28,19 @@ body{
     background-color: rgb(228, 222, 222);
 }
 .box{
-    width: 1000px;
-    height: 600px;
+    width: 800px;
+    height: 550px;
     background-color: white;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     border-radius: 5px;
-    padding: 30px;
+    padding: 0 30px 30px 30px;
 }
 
-
-.but{
-    height: 40px;
-    vertical-align: middle;
+button{
+    height: 30px;
+    margin: 20px 0;
     border-radius: 5px;
 }
 
@@ -64,6 +59,7 @@ h1{
 ul{
     list-style: none;
     padding: 15px;
+    padding-left: 0px;
 }
 
 li{
